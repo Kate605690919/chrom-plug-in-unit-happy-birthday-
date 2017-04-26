@@ -1,0 +1,16 @@
+{
+  "name": "H生日快乐呢~",
+  "description": "生日快乐~~~",
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "happy！"
+  },
+  "manifest_version": 2
+}
